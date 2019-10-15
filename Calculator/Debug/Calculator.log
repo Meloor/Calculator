@@ -1,0 +1,3 @@
+﻿  Calculator.cpp
+e:\vsprojs\vs2017proj\calculator\calculator\calculator.cpp(78): warning C4018: “<”: 有符号/无符号不匹配
+  Calculator.vcxproj -> E:\VSProjs\VS2017Proj\Calculator\Debug\Calculator.exe
