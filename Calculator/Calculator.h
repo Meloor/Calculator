@@ -15,5 +15,6 @@ public:
 	static int formula_num;
 	Calculator();
 	string MakeFormula();
+	string MakeCorrectFormula();
 	string Solve(string formula);
 };
