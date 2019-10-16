@@ -11,10 +11,12 @@ using namespace std;
 class Calculator {
 private:
 	string op[4] = { "+", "-", "*", "/" };
-public:
 	static int formula_num;
+public:
 	Calculator();
 	string MakeFormula();
 	string MakeCorrectFormula();
 	string Solve(string formula);
+	void WriteToFile(fstream &fout);
+	string OpenAndWriteToFile(string file_name = "subject.txt");
 };
