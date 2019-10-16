@@ -12,6 +12,7 @@ class Calculator {
 private:
 	string op[4] = { "+", "-", "*", "/" };
 public:
+	static int formula_num;
 	Calculator();
 	string MakeFormula();
 	string Solve(string formula);
